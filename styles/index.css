@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;}  
+    
+    /* shared style */
+    .secondary-bg {
+        background-color: #FFF8F3;
+    }
+    .text-primary {
+        color: #FD6E0A
+    }
+    .dark-2 {
+        color: #474747;
+    }
+    .dark-3 {
+        color: #757575;
+    }
+    .btn-primary {
+        background-color: #FD6E0A;
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        padding: 18px 35px;
+        cursor: pointer;
+        border-radius: 5px;
+        border: none;
+        
+    }
+    .contact-btn {
+        background-color: white;
+        font-weight: bold;
+        font-size: 20px;
+        color: #FD6E0A;
+        padding: 18px 35px;
+        cursor: pointer;
+        border-radius: 5px;
+        border: 1.5px solid #FD6E0A;
+        margin-left: 30px;
+    }
+
+    .section-title {
+        font-size: 35px;
+        font-weight: bold;
+        color: #181818;
+    }
+    .section-description {
+        font-size: 18px;
+        color: #757575;
+
+    }
+
+    .text-center {
+        text-align: center;
+    }
+/* header */
+.header {
+    background-image: url(/images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin-inline-start: 10px;
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px; 
+}
+.banner-content {
+    max-width: 580px;
+}
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title {
+    font-weight: bold;
+    font-size: 76px;
+}
+.banner-description {
+    font-weight: 18px;
+}
+.banner-profile-pic {
+    width: 580px;
+}
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+.about-items {
+    display: flex;
+    justify-content: space-around;
+
+}
+.item-description {
+    font-weight: 600;
+}
+/* skills section styles */
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/* resume section styles */
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+}
+.resume-column-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.experience-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description, .experience-sub-title {
+    color: #757575;
+}
+.resume {
+    margin: 300px 5px;
+    
+}
+.resume-download-cv {
+    margin-top: 50px;
+    
+}
+hr {
+    border:none;
+    border-top: 1px solid #ccc;
+    margin:20px 0;
+}
+.experience-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+/* footer styles */
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+
+}
+/* .footer-column {
+    width: 50%;
+} */
+.left-section {
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+    align-items: flex-start;
+}
+footer input[type="text"], footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+.icon {
+    display: flex;
+    margin-top: 30px;
+    gap: 24px;
+}
+#kanto {
+    font-size: 16;
+}
