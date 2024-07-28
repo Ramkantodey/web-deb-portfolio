@@ -222,3 +222,21 @@ footer input[type="text"], footer input[type="email"],footer textarea{
 #kanto {
     font-size: 16;
 }
+/* responsive media query */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+    .skills-container, .resume-container, .footer{
+        flex-direction: column;
+    }
+    footer{
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+        
+    }
+}
